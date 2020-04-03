@@ -1,3 +1,5 @@
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -105,7 +107,7 @@ public class AplikacjaTestujaca extends JFrame implements ActionListener {
 
         Timer timer = new Timer(20, this); // co delay milisekund pojawia sie zdarzenie
         timer.start();
-        
+
     }
 
     public void repaint(){
