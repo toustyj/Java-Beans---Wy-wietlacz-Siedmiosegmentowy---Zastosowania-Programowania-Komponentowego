@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      <Component id="panelWyswietlaczy1" min="-2" pref="446" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="panelWyswietlaczy2" min="-2" pref="472" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="113" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="panelWyswietlaczy1" min="-2" pref="144" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Component id="panelWyswietlaczy2" min="-2" pref="528" max="-2" attributes="0"/>
+              <EmptySpace pref="55" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="PanelWyswietlaczy" name="panelWyswietlaczy1">
+      <Properties>
+        <Property name="aktualnyNapis" type="java.lang.String" value="8 bF"/>
+        <Property name="czyRysowacRamke" type="java.lang.Boolean" value="false"/>
+        <Property name="czyWskazywacNaWszystkieWyswietlacze" type="java.lang.Boolean" value="false"/>
+        <Property name="iloscWyswietlaczy" type="java.lang.Integer" value="4"/>
+        <Property name="kolorSegmentuWyswietlacza" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" id="cyan" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="kolorTla" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="40" green="40" id="darkGray" palette="1" red="40" type="palette"/>
+        </Property>
+        <Property name="kolorTlaWyswietlacza" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+        </Property>
+        <Property name="kolorWygaszonegoSegmentuWyswietlacza" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
+        <Property name="szerokoscWyswietlaczy" type="java.lang.Integer" value="72"/>
+        <Property name="wskazywanyWyswietlacz" type="java.lang.Integer" value="3"/>
+        <Property name="wysokoscWyswietlaczy" type="java.lang.Integer" value="142"/>
+      </Properties>
+    </Component>
+    <Component class="PanelWyswietlaczy" name="panelWyswietlaczy2">
+      <Properties>
+        <Property name="aktualnyNapis" type="java.lang.String" value="124Fb2"/>
+        <Property name="czyWskazywacNaWszystkieWyswietlacze" type="java.lang.Boolean" value="false"/>
+        <Property name="iloscRzedow" type="java.lang.Integer" value="2"/>
+        <Property name="iloscWyswietlaczy" type="java.lang.Integer" value="6"/>
+        <Property name="kolorSegmentuWyswietlacza" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" id="black" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="kolorTlaWyswietlacza" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="szerokoscPionowaMiedzyWyswietlaczami" type="java.lang.Integer" value="80"/>
+        <Property name="szerokoscPoziomaMiedzyWyswietlaczami" type="java.lang.Integer" value="70"/>
+        <Property name="szerokoscWyswietlaczy" type="java.lang.Integer" value="124"/>
+        <Property name="wskazywanyWyswietlacz" type="java.lang.Integer" value="5"/>
+        <Property name="wysokoscWyswietlaczy" type="java.lang.Integer" value="244"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

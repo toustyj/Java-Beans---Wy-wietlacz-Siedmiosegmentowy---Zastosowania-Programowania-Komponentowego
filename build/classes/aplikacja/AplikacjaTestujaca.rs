@@ -1,2 +1,0 @@
-AplikacjaTestujaca
-AplikacjaTestujaca$1
